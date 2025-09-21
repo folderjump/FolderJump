@@ -217,9 +217,9 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
 - 文件树也支持上面这些操作，不做演示。
 
-  The file tree supports the above operations too, I don't show that again...
+  The file tree supports the above operations too, I don't show that again..
 
-  ![1-3](1-3.gif)
+![1-3](1-3.gif)
 
 - 搜索：在全路径中进行关键词匹配，显示匹配的文件、文件夹（保留目录层次结构、高亮自己）
 
@@ -239,7 +239,7 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
   > 例如：D:\Program Files\Git\sample\etc\A_ToBeOverride.png。那么任何被拖入或粘贴到 D:\Program Files\Git\sample\etc\目录的文件都会替换掉A_ToBeOverride.png。
   >
-> (For example: D:\Program Files\Git\sample\etc\A_ToBeOverride.png. Then any file dragged/paste into the D:\Program Files\Git\sample\etc\ directory will replace A_ToBeOverride.png)
+  > (For example: D:\Program Files\Git\sample\etc\A_ToBeOverride.png. Then any file dragged/paste into the D:\Program Files\Git\sample\etc\ directory will replace A_ToBeOverride.png)
 
   ![2-4](2-4.gif)
 
@@ -340,9 +340,7 @@ Display the currently open folders and the hierarchical relationships among them
 
   Double Press the key under Esc: Expand the parent-parent folder tree
 
-  ![2-1](2-1.gif)
-
-
+![2-1](2-1.gif)
 
 > Caps 指的是大写锁定键，即字母A左边那个CapsLock按键。
 >  ("Caps" refers to the uppercase lock key, which is at the left of the letter "A")
@@ -361,7 +359,10 @@ Display the currently open folders and the hierarchical relationships among them
 
 - Caps + 中键：对窗口最大化或恢复大小。
 
-  Caps + Middle Button: Maximize or restore the window size![1-9](1-9.gif)
+  Caps + Middle Button: Maximize or restore the window size
+  
+
+![1-9](1-9.gif)
 
 - 窗口切换：在同类程序的多个窗口之间快速切换。快捷键Ctrl+空格。
 
@@ -394,13 +395,13 @@ This function relies on the search engine of Everything
 
   > 搜索词(keyword): pkcs11 examp; \prog txt
 
-  ![0-6](0-6.gif)
+![0-6](0-6.gif)
 
 - 快速跳转(Quick switch): `D:\Program Files\Git\etc\pkcs11`
 
   > 搜索词(keyword): pkcs11; \prog \etc
 
-  ![0-7](0-7.gif)
+![0-7](0-7.gif)
 
 
 
