@@ -4,13 +4,13 @@
 
 This is an office efficiency tool that helps you solve your daily "recent" problems (Pay/Free):
 
-- 权限：免安装（绿色版）、无联网、免管理员权限、不搜集用户隐私信息。
-
-  Permissions: No installation required (Portable), no Internet connection, no administrator privileges, no collection of user privacy information.
-
 - 简洁漂亮的用户界面。
 
   Simple and beautiful program UI.
+
+- 免安装（绿色版）、无联网、免管理员权限、不搜集用户隐私信息。
+
+  No installation required (Portable), no Internet connection, no administrator privileges, no collection of user privacy information.
 
 - 快速打开最近访问过的文件夹和文件、合并文件夹、复制路径、快速搜索。
 
@@ -75,9 +75,9 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
   Auto record the opened folder
 
-- 自动记录打开过的文件
+- 自动记录打开过的文件（如果打开Windows的"最近访问"功能，则可以跟踪更多文件打开行为）
 
-  Auto record the opened file
+  Auto record the opened file (If you enable the "Recent" feature in Windows, you can track more file opening behaviors.)
 
 ![0-0](0-0.gif)
 
@@ -241,8 +241,7 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
   >
   > (For example: D:\Program Files\Git\sample\etc\A_ToBeOverride.png. Then any file dragged/paste into the D:\Program Files\Git\sample\etc\ directory will replace A_ToBeOverride.png)
 
-  ![2-4](2-4.gif)
-
+![2-4](2-4.gif)
 
 
 
@@ -256,9 +255,9 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
   Shortcut Key 'Alt' : Switch to the path of the last visit
 
-- 支持所有历史条目，支持搜索结果
+- 支持所有历史条目、支持搜索结果、支持树形结构对话框
 
-  supports all history items and search results
+  supports all history items, search results and tree structure dialog boxtree.
 
 ![1-5](1-5.gif)
 
@@ -369,9 +368,9 @@ Display the currently open folders and the hierarchical relationships among them
   Window switching: Quickly switch between multiple Windows of the same type of program.The shortcut key is Ctrl+ Space.
 
 
-- 窗口重命名：修改窗口标题栏的名字。快捷键Ctrl+F2。
+- 窗口重命名：修改窗口标题栏的名字，快捷键Ctrl+F2。
 
-  Window renaming: Modify the name of the window title bar.Shortcut key: Ctrl+F2
+  Window renaming: Modify the name of the window title bar, Shortcut key: Ctrl+F2. 
 
 ![1-10](1-10.gif)
 
@@ -407,23 +406,120 @@ This function relies on the search engine of Everything
 
 # 免费 (Free)
 
-- Function limited version.
+免费版的功能有限，支持的最多条目数量和次数具体如下：
 
-- TODO ...
+The free version has limited functions. The maximum number and frequency of supported entries are as follows:
+
+- 不支持数据保存，软件重启后数据自动清零。
+
+  Data saving is not supported. Data will be automatically reset to zero after the software restarts.
+
+- 最近打开的文件夹数量：12。
+
+  Number of recently opened folders: 12.
+
+- 最近打开的文件夹置顶数量：3。
+
+  The number of recently opened folders pinned to the top: 3.
+
+- 最近打开的文件数量：10。
+
+  Number of recently opened files: 10.
+
+- 对话框快捷跳转数量：8。
+
+  Number of quick switch in the dialog box: 8.
+
+- 跳转树的跳转次数：60。
+
+  The number of jumps in the jump tree: 60.
+
+- 相同程序快捷切换次数：30。
+
+  Quick switch times for the same program: 30.
+
+- 任意窗口置顶次数：15。
+
+  The number of times any window is pinned to the top: 15.
+
+- Everything 全局搜索：仅支持预览结果。
+
+  Everything Global Search: Only supports preview results.
+
+- 文件夹图标样式只有一种。
+
+  There is only one style for folder ICONS.
+
+说明：超出限制范围的操作不会有任何效果，次数用完后您重启软件即可重新获得使用次数。
+
+Note：Operations outside the restricted range will have no effect. After the usage limit is used up, you can restart the software to regain the usage limit.
+
+免费版 (free version)：
+
+- 登录名(login name)：folderjump；
+- 登录邮箱(login email)：folderjump@gmail.com。
 
 
 
-# 付费 (Purchase)
+# 付费 (Pay)
 
-- 买断制：一次购买，永久升级和使用。一个激活码仅激活一台计算机。
+- 买断制：一次购买支持永久升级和使用。一个激活码仅激活一台计算机，任意数量购买。
 
   Lifetime: One-time purchase for permanent upgrade and use. One License can only activate one computer
 
-- 价格：待定。 (1个激活码大概1杯奶茶/咖啡的钱)
+- 价格：1个激活码15.6元。(少喝1杯奶茶/咖啡，您就可永久获得这款效率软件)
 
-  Price: To be determined. (About a cup of tea/coffee per License).
+  Price: 15.6 RMB per one License. If you drink one less cup of milk tea or coffee, you can permanently get this efficiency software.
 
-- TODO ...
+- 优惠：2个85折、3个或以上75折。(价格四舍五入)
+
+  Offer: 15% off for 2 items and 25% off for 3 or more items.(Prices are rounded off)
+
+- 激活/反激活：由于本软件完全离线的特殊性，所以目前一个激活码终生仅提供1次激活码服务，并且需要购买一年后才可以申请，请通过邮件方式联系我。
+
+  Activation/deactivation: Due to the special nature of this software being completely offline, currently, each License only provides one time service for life, and it can only be applied for one year after purchase. Please contact me via email.
+
+- 请务必充分试用免费版后再购买！非软件自身问题不支持退款。
+
+  Please be sure to fully try the free version before purchasing!Refunds are not supported for issues not related to the software itself.
+
+
+
+# 购买流程 (Purchase process)
+
+- 购买流程：
+
+  1. 找到右下角托盘，软件图标右键菜单选择： "购买/激活" 。
+
+     Locate the tray at the lower right corner, right-click the software icon and select "Purchase/Activate" from the menu.
+
+  2. 填写注册信息后生成申请码。
+
+     After filling in the registration information, an request license code will be generated.
+
+  3. 付费、再把激活码和付款截图发送到邮箱：folderjump@gmail.com。
+
+     Pay and then send the License and payment screenshot to email: folderjump@gmail.com.
+
+  4. 我会通过邮件发送激活码+正式版软件。
+
+     I will send the License and the official version of the software by email.
+
+  5. 找到右下角托盘，软件图标右键菜单选择："购买/激活"，再导入激活码。
+
+     Locate the tray at the lower right corner, right-click the software icon and select "Purchase/Activate" from the menu, then import the License.
+
+  6. 启动软件后登录使用。
+
+     Start the software and login to use.
+
+- 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣额的朋友请通过右键或QQ联系我。
+
+  I'm not sure if the software is popular. Currently, there is no official paid channel. If you are interested, please contact me by right-clicking or via QQ.
+
+- 目前付费版本的软件不提供公开下载（避免网上版本混乱），付费后会和激活码一起发送。
+
+  Currently, the paid version of the software is not available for public download (to avoid confusion of online versions). After payment, it will be sent together with the activation code.
 
 
 
@@ -432,5 +528,3 @@ This function relies on the search engine of Everything
 - Email: folderjump@gmail.com
 - QQ: 297010976
 - QQ Group: 758125907
-
-
