@@ -12,9 +12,9 @@ This is an office efficiency tool that helps you solve your daily "recent" probl
 
   No installation required (Portable), no Internet connection, no administrator privileges, no collection of user privacy information.
 
-- 快速打开最近访问过的文件夹和文件、合并文件夹、复制路径、快速搜索。
+- 自动记录打开过的文件夹、文件：支持快速打开、合并文件夹、复制路径、快速搜索。
 
-  Quickly open recently visited folders and files, merge folders, copy paths, and quick search for files/folders.
+  Auto record the recently visited folders and files: Quickly open,  merge folders, copy paths, and quick search for files/folders.
 
 - "保存"、"另存为" 等各类对话框的文件夹快速跳转。
 
@@ -408,7 +408,7 @@ This function relies on the search engine of Everything
 
 免费版的功能有限，支持的最多条目数量和次数具体如下：
 
-The free version has limited functions. The maximum number and frequency of supported entries are as follows:
+The free version has limited functions. The maximum number and count of supported entries are as follows:
 
 - 不支持数据保存，软件重启后数据自动清零。
 
@@ -418,7 +418,7 @@ The free version has limited functions. The maximum number and frequency of supp
 
   Number of recently opened folders: 12.
 
-- 最近打开的文件夹置顶数量：3。
+- 文件夹置顶数量：3。
 
   The number of recently opened folders pinned to the top: 3.
 
@@ -513,7 +513,7 @@ Note：Operations outside the restricted range will have no effect. After the us
 
      Start the software and login to use.
 
-- 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣额的朋友请通过右键或QQ联系我。
+- 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣的朋友请通过邮件或QQ联系我。
 
   I'm not sure if the software is popular. Currently, there is no official paid channel. If you are interested, please contact me by right-clicking or via QQ.
 
