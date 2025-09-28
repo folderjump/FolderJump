@@ -42,7 +42,7 @@ This is an office efficiency tool that helps you solve your daily "recent" probl
 
 
 
-# 软件界面 (Program UI)
+# 软件界面 (GUI)
 
 ![Menu](Menu.png)
 
@@ -62,12 +62,13 @@ This is an office efficiency tool that helps you solve your daily "recent" probl
 
 
 
-# 软件功能 (Program Feature)
 
-下面的演示中我是使用第三方的鼠标手势触发FolderJump弹出界面的快捷键。
+
+# 功能介绍 (Features)
+
+下面的演示中是使用了第三方的鼠标手势去触发FolderJump弹出界面的快捷键。
 
 In the following demonstration, a third-party mouse gesture is used to trigger the shortcut key for the FolderJump pop-up interface
-
 
 ## 1. 近期记录 (Recent History)
 
@@ -75,9 +76,9 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
   Auto record the opened folder
 
-- 自动记录打开过的文件（如果打开Windows的"最近访问"功能，则可以跟踪更多文件打开行为）
+- 自动记录打开过的文件（默认记录双击打开的文件；如果打开Windows的"最近访问"功能，则可以跟踪更多文件打开行为）
 
-  Auto record the opened file (If you enable the "Recent" feature in Windows, you can track more file opening behaviors.)
+  Auto record the opened file (By default, the file opened by double-clicking is recorded. If you enable the "Recent" feature in Windows, you can track more file opening behaviors.)
 
 ![0-0](0-0.gif)
 
@@ -245,6 +246,28 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
 
 
+- 其他快捷键说明：
+
+  Other shortcut key instructions:
+
+  - 切换文件平铺和文件树模式：按下'f'。
+
+    Toggle between Flat or Tree View modes: Press 'f'.
+
+  - 关闭、滚动弹出、右键弹出右侧平铺或文件树窗口：按下'r'.
+
+    Close, wheelup/down-pop or right-button-pop the right Flat or Tree View window: Press 'r'
+
+  - 打开最近3个文件夹：按下'b'。
+
+    Open the last 3 folders: Press 'b'.
+
+  - 切到当前窗口的搜索栏：按下'Tab'。
+
+    Focus on the search bar of the current window: Press 'Tab'.
+
+
+
 ## 2. 快速切换 (Quick Switch)
 
 - 自动吸附目标窗口，最近一次访问的文件夹用 '红圈+打勾' 表示。
@@ -273,7 +296,27 @@ In the following demonstration, a third-party mouse gesture is used to trigger t
 
 显示正打开的文件夹、它们之间的层次关系。
 
-Display the currently open folders and the hierarchical relationships among them
+Display the currently open folders and the hierarchical relationships among them.
+
+已经支持的资源管理器如下，可以在"设置"界面配置。
+
+- OFF：关闭跳转树。
+
+- Explorer：Win10、Win11不支持多标签的情况。
+
+- Explorer+Tab：Win11且支持多标签的情况。
+
+  > Win11多标签原生支持有限，暂未找到完整的控制方法，所以功能上仅支持跳转和关闭所有窗口。
+
+- QTTabBar：已安装QTTabBar插件的情况。
+
+- XYplorer：已把 XYplorer 配置成系统默认资源管理器的情况。
+
+- D-Opus：不支持。
+
+![JumpTree](JumpTree.png)
+
+**功能展示：**
 
 - 使用资源管理器时会自动弹出；不使用时自动隐藏。
 
@@ -378,11 +421,12 @@ Display the currently open folders and the hierarchical relationships among them
 
 ## 5. 全局搜索 (Global Search)
 
-该功能依赖于Everything的搜索引擎
+该功能依赖于Everything的搜索引擎，请先安装Everything并让它在后台运行。
 
-This function relies on the search engine of Everything
+This function relies on the search engine of Everything，please install Everything and make sure it's running.
 
-语法关键字符(Grammar key character):
+**语法关键字符(Grammar key character):**
+
 1. ";" : 切到everything搜索 (Switch to everything to search)
 2. "\\" : 匹配路径关键词，否则匹配文件名关键词 (try to match the keyword in search path, otherwise try to match the keyword in the file name)
 
@@ -404,6 +448,47 @@ This function relies on the search engine of Everything
 
 
 
+# 快捷键 (Shortcut)
+
+**默认快捷键如下：**
+
+- 弹出主面板：Ctrl + Alt + 空格。
+- 置顶窗口：Ctrl +  t。
+- 同类程序窗口切换：Ctrl + 空格
+- 重命名窗口标题：Ctrl +  F2
+
+**快捷键修改方法：**
+
+请到软件的 "设置" 界面里先删除对应快捷键、然后录入想要的快捷键、最后保存。如果"设置"里无法正常录入新的快捷键，一般是快捷键已经被其它软件占用。
+
+  方法1：先取消其它软件对快捷键的暂用。
+
+  方法2：退出软件后修改软件包下的Setttings.ini文件，修改完再启动软件。例如：
+
+  ```ini
+  HotkeyPop=^!Space 
+  ```
+
+  语法规则: 
+
+  - `^`: 表示Ctrl
+  - `+`: 表示Shift
+  - `!`: 表示Alt
+  - `#`: 表示Win
+  - `MButton`：鼠标中键。
+  - 其它按键：原本的含义。
+
+  例如：
+
+  - `^+1`: Ctrl + Shift + 1
+  - `^!z`: Ctrl + Alt + z
+  - `!Space`：Alt + 空格
+  - `+c`：Shift + c
+
+- 功能的快捷键也是一样的修改方法，只是Settings.ini里选项名字不同而已。
+
+
+
 # 免费 (Free)
 
 免费版的功能有限，支持的最多条目数量和次数具体如下：
@@ -418,37 +503,45 @@ The free version has limited functions. The maximum number and count of supporte
 
   Number of recently opened folders: 12.
 
-- 文件夹置顶数量：3。
+- 文件夹置顶数量：2。
 
-  The number of recently opened folders pinned to the top: 3.
+  The number of recently opened folders pinned to the top: 2.
 
 - 最近打开的文件数量：10。
 
   Number of recently opened files: 10.
 
-- 对话框快捷跳转数量：8。
+- 对话框快捷跳转数量：6。
 
-  Number of quick switch in the dialog box: 8.
+  Number of quick switch in the dialog box: 6.
 
-- 跳转树的跳转次数：60。
+- 跳转树的跳转次数：50。
 
-  The number of jumps in the jump tree: 60.
+  The number of jumps in the jump tree: 50.
 
-- 相同程序快捷切换次数：30。
+- 相同程序快捷切换次数：20。
 
-  Quick switch times for the same program: 30.
+  Quick switch times for the same program: 20.
 
-- 任意窗口置顶次数：15。
+- 任意窗口置顶次数：12。
 
-  The number of times any window is pinned to the top: 15.
+  The number of times any window is pinned to the top: 12.
 
 - Everything 全局搜索：仅支持预览结果。
 
   Everything Global Search: Only supports preview results.
 
-- 文件夹图标样式只有一种。
+- 文件夹图标样式：无。
 
-  There is only one style for folder ICONS.
+  Style for folder icon: Unavailable.
+  
+- 启动时间更长
+
+  The longer time for start.
+
+- 启动打开主页
+
+  Open home page when start.
 
 说明：超出限制范围的操作不会有任何效果，次数用完后您重启软件即可重新获得使用次数。
 
@@ -485,7 +578,7 @@ Note：Operations outside the restricted range will have no effect. After the us
 
 
 
-# 购买流程 (Purchase process)
+# 购买流程 (Pay process)
 
 - 购买流程：
 
@@ -515,7 +608,7 @@ Note：Operations outside the restricted range will have no effect. After the us
 
 - 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣的朋友请通过邮件或QQ联系我。
 
-  I'm not sure if the software is popular. Currently, there is no official paid channel. If you are interested, please contact me by right-clicking or via QQ.
+  I'm not sure if the software is popular. Currently, there is no official paid channel. If you are interested, please contact me by email or via QQ.
 
 - 目前付费版本的软件不提供公开下载（避免网上版本混乱），付费后会和激活码一起发送。
 
@@ -523,7 +616,7 @@ Note：Operations outside the restricted range will have no effect. After the us
 
 
 
-# 联系 (Contact)
+# 联系方式 (Contact)
 
 - Email: folderjump@gmail.com
 - QQ: 297010976
