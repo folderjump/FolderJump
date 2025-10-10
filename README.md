@@ -1,4 +1,4 @@
-# FolderJump v1.02
+# FolderJump v1.03
 
 这是一款帮你解决日常"最近"问题的办公效率工具（付费/免费）：
 
@@ -491,61 +491,9 @@ This function relies on the search engine of Everything，please install Everyth
 
 # 免费 (Free)
 
-免费版的功能有限，支持的最多条目数量和次数具体如下：
+免费版：可试用90天。
 
-The free version has limited functions. The maximum number and count of supported entries are as follows:
-
-- 不支持数据保存，软件重启后数据自动清零。
-
-  Data saving is not supported. Data will be automatically reset to zero after the software restarts.
-
-- 最近打开的文件夹数量：12。
-
-  Number of recently opened folders: 12.
-
-- 文件夹置顶数量：2。
-
-  The number of recently opened folders pinned to the top: 2.
-
-- 最近打开的文件数量：10。
-
-  Number of recently opened files: 10.
-
-- 对话框快捷跳转数量：6。
-
-  Number of quick switch in the dialog box: 6.
-
-- 跳转树的跳转次数：50。
-
-  The number of jumps in the jump tree: 50.
-
-- 相同程序快捷切换次数：20。
-
-  Quick switch times for the same program: 20.
-
-- 任意窗口置顶次数：12。
-
-  The number of times any window is pinned to the top: 12.
-
-- Everything 全局搜索：仅支持预览结果。
-
-  Everything Global Search: Only supports preview results.
-
-- 文件夹图标样式：无。
-
-  Style for folder icon: Unavailable.
-  
-- 启动时间更长
-
-  The longer time for start.
-
-- 启动打开主页
-
-  Open home page when start.
-
-说明：超出限制范围的操作不会有任何效果，次数用完后您重启软件即可重新获得使用次数。
-
-Note：Operations outside the restricted range will have no effect. After the usage limit is used up, you can restart the software to regain the usage limit.
+The free version can be tried for 90 days.
 
 免费版 (free version)：
 
@@ -579,32 +527,6 @@ Note：Operations outside the restricted range will have no effect. After the us
 
 
 # 购买流程 (Pay process)
-
-- 购买流程：
-
-  1. 找到右下角托盘，软件图标右键菜单选择： "购买/激活" 。
-
-     Locate the tray at the lower right corner, right-click the software icon and select "Purchase/Activate" from the menu.
-
-  2. 填写注册信息后生成申请码。
-
-     After filling in the registration information, an request license code will be generated.
-
-  3. 付费、再把激活码和付款截图发送到邮箱：folderjump@gmail.com。
-
-     Pay and then send the License and payment screenshot to email: folderjump@gmail.com.
-
-  4. 我会通过邮件发送激活码+正式版软件。
-
-     I will send the License and the official version of the software by email.
-
-  5. 找到右下角托盘，软件图标右键菜单选择："购买/激活"，再导入激活码。
-
-     Locate the tray at the lower right corner, right-click the software icon and select "Purchase/Activate" from the menu, then import the License.
-
-  6. 启动软件后登录使用。
-
-     Start the software and login to use.
 
 - 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣的朋友请通过邮件或QQ联系我。
 
