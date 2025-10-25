@@ -1,6 +1,6 @@
 # FolderJump v1.03
 
-这是一款帮你解决日常"最近"问题的办公效率工具（付费/免费）：
+这是一款帮你解决日常"最近"问题的办公效率工具：
 
 This is an office efficiency tool that helps you solve your daily "recent" problems (Pay/Free):
 
@@ -486,55 +486,6 @@ This function relies on the search engine of Everything，please install Everyth
   - `+c`：Shift + c
 
 - 功能的快捷键也是一样的修改方法，只是Settings.ini里选项名字不同而已。
-
-
-
-# 免费 (Free)
-
-免费版：可试用90天。
-
-The free version can be tried for 90 days.
-
-免费版 (free version)：
-
-- 登录名(login name)：folderjump；
-- 登录邮箱(login email)：folderjump@gmail.com。
-
-
-
-# 付费 (Pay)
-
-- 买断制：一次购买支持永久升级和使用。一个激活码仅激活一台计算机，任意数量购买。
-
-  Lifetime: One-time purchase for permanent upgrade and use. One License can only activate one computer
-
-- 价格：1个激活码15.6元。(少喝1杯奶茶/咖啡，您就可永久获得这款效率软件)
-
-  Price: 15.6 RMB per one License. If you drink one less cup of milk tea or coffee, you can permanently get this efficiency software.
-
-- 优惠：2个85折、3个或以上75折。(价格四舍五入)
-
-  Offer: 15% off for 2 items and 25% off for 3 or more items.(Prices are rounded off)
-
-- 激活/反激活：由于本软件完全离线的特殊性，所以目前一个激活码终生仅提供1次激活码服务，并且需要购买一年后才可以申请，请通过邮件方式联系我。
-
-  Activation/deactivation: Due to the special nature of this software being completely offline, currently, each License only provides one time service for life, and it can only be applied for one year after purchase. Please contact me via email.
-
-- 请务必充分试用免费版后再购买！非软件自身问题不支持退款。
-
-  Please be sure to fully try the free version before purchasing!Refunds are not supported for issues not related to the software itself.
-
-
-
-# 购买流程 (Pay process)
-
-- 不确定软件是否受欢迎，目前没有正式的付费通道，有兴趣的朋友请通过邮件或QQ联系我。
-
-  I'm not sure if the software is popular. Currently, there is no official paid channel. If you are interested, please contact me by email or via QQ.
-
-- 目前付费版本的软件不提供公开下载（避免网上版本混乱），付费后会和激活码一起发送。
-
-  Currently, the paid version of the software is not available for public download (to avoid confusion of online versions). After payment, it will be sent together with the activation code.
 
 
 
